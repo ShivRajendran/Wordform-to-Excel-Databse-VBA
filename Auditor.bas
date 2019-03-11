@@ -310,3 +310,127 @@ Sub omover(te)
     Range("A" & te + 2).Select
     Application.CutCopyMode = False
 End Sub
+Sub nhdeleter()
+'
+' Macro1 Macro
+'
+
+'
+    
+    Worksheets("NewHires").Activate
+    Rows("6:276").Select
+    ActiveWindow.SmallScroll Down:=-120
+    ActiveWindow.ScrollRow = 133
+    ActiveWindow.ScrollRow = 131
+    ActiveWindow.ScrollRow = 129
+    ActiveWindow.ScrollRow = 127
+    ActiveWindow.ScrollRow = 126
+    ActiveWindow.ScrollRow = 123
+    ActiveWindow.ScrollRow = 121
+    ActiveWindow.ScrollRow = 119
+    ActiveWindow.ScrollRow = 105
+    ActiveWindow.ScrollRow = 91
+    ActiveWindow.ScrollRow = 84
+    ActiveWindow.ScrollRow = 81
+    ActiveWindow.ScrollRow = 79
+    ActiveWindow.ScrollRow = 78
+    ActiveWindow.ScrollRow = 77
+    ActiveWindow.ScrollRow = 74
+    ActiveWindow.ScrollRow = 73
+    ActiveWindow.ScrollRow = 67
+    ActiveWindow.ScrollRow = 62
+    ActiveWindow.ScrollRow = 59
+    ActiveWindow.ScrollRow = 57
+    ActiveWindow.ScrollRow = 55
+    ActiveWindow.ScrollRow = 53
+    ActiveWindow.ScrollRow = 51
+    ActiveWindow.ScrollRow = 48
+    ActiveWindow.ScrollRow = 44
+    ActiveWindow.ScrollRow = 41
+    ActiveWindow.ScrollRow = 38
+    ActiveWindow.ScrollRow = 37
+    ActiveWindow.ScrollRow = 36
+    ActiveWindow.ScrollRow = 35
+    ActiveWindow.ScrollRow = 34
+    ActiveWindow.ScrollRow = 33
+    ActiveWindow.ScrollRow = 32
+    ActiveWindow.ScrollRow = 31
+    ActiveWindow.ScrollRow = 29
+    ActiveWindow.ScrollRow = 28
+    ActiveWindow.ScrollRow = 25
+    ActiveWindow.ScrollRow = 19
+    ActiveWindow.ScrollRow = 16
+    ActiveWindow.ScrollRow = 13
+    ActiveWindow.ScrollRow = 12
+    ActiveWindow.ScrollRow = 11
+    ActiveWindow.ScrollRow = 10
+    ActiveWindow.ScrollRow = 9
+    ActiveWindow.ScrollRow = 8
+    ActiveWindow.ScrollRow = 7
+    ActiveWindow.ScrollRow = 6
+    ActiveWindow.ScrollRow = 5
+    ActiveWindow.ScrollRow = 4
+    ActiveWindow.ScrollRow = 3
+    ActiveWindow.ScrollRow = 2
+    ActiveWindow.ScrollRow = 1
+    Selection.Delete Shift:=xlUp
+    Range("A3").Value = ""
+    Range("B3").Value = ""
+    Range("C3").Value = ""
+    Range("D3:z3").Select
+    Selection.ClearContents
+    Range("D5:Z5").Select
+    Selection.ClearContents
+    Range("A2").Select
+End Sub
+Sub tdeleter()
+'
+' tdeleter Macro
+'
+
+'
+   
+    Worksheets("Terms").Activate
+    Rows("4:4").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+    Rows("3:3").Select
+    Selection.ClearContents
+    Range("A2").Select
+End Sub
+
+Sub odeleter()
+'
+' odeleter Macro
+'
+
+'
+    
+    Worksheets("Other").Activate
+    Rows("4:4").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+    Rows("3:3").Select
+    Selection.ClearContents
+    Range("A2").Select
+End Sub                                                                                            

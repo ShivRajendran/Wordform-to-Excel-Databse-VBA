@@ -18,4 +18,5 @@ Takes data and imports it into a report format for that weekly audit.
 
 -------------------------------------------------------------------
 
-Pictures of final product can be viewed in repository
+Pictures of final product can be viewed in repository. Db-img is an image of the database that is created after scraping word forms.
+Audit-img is an image of the audit what the final product of the Auditor.bas is.

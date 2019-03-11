@@ -9,9 +9,11 @@ Employee forms needed to be stored in a central place for auditing. Forms contai
 Before the program, weekly audits were manually performed in excel. VBA allowed for automation of data storage and data processing.
 
 Wordpaf-TO-xlx.bas-----------------------------------------------
+
 This code creates a connection between word and excel and opens a word file for employees to input into excel sheet. The program then scrapes that user-form and fills excel columns. 
 
 Auditor.bas-------------------------------------------------------
+
 Takes data and imports it into a report format for that weekly audit. 
 
 Pictures of final product can be viewed in repository
